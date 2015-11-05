@@ -1,0 +1,17 @@
+{
+  "name": "cucumber-selenium-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+		"test": "./node_modules/cucumber/bin/cucumber.js"
+
+  },
+  "author": "stephane-ruhlmann <stephanej.ruhlmann@yahoo.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.4.0",
+    "cucumber": "^0.8.1",
+    "webdriverio": "^3.2.6"
+  }
+}
